@@ -4,6 +4,7 @@ import Intro from "./IntroSection";
 import Technologies from "./TechnologiesSection";
 import ReactBuff from "./ReactBuffSection";
 import MyDevStack from "./MyDevStackSection";
+import DevInfo from "./DevInfoSection";
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <Technologies />
         <ReactBuff />
         <MyDevStack />
+        <DevInfo/>
       </div>
     </Layout>
   );

@@ -4,7 +4,7 @@ const MyDevStackSection = () => {
   return (
     <div className="my-20">
       <div className="text-center h-52 bg-red-500">
-        <h1 className="text-white font-bold text-4xl py-10">My EV Stack</h1>
+        <h1 className="text-white font-bold text-4xl py-10">My DEV Stack</h1>
       </div>
       {/* -mt-20: is the think that make the card at the top of the last div  */}
       <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
