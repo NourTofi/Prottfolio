@@ -5,8 +5,7 @@ module.exports = {
     extend: {
       colors: {
         theme_color: "#2A2A2A",
-        primar:'#5F9EA0',
-        
+        primar:'#5F9EA0',        
       },
       fontFamily: {
         mont: ['Montserrat', 'sms-serif']
