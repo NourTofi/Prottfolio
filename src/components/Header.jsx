@@ -20,17 +20,17 @@ function Header() {
   ];
   const pathNme = window.location.pathname;
   return (
-    <div className={`text-white font-mont `}>
+    <div className={`text-white font-mont fixed inset-0 z-50`}>
       <div
         className={`flex bg-theme_color justify-between items-center p-2 shadow-lg ${
-          showMenu == "" && "md:flex-col"
+          showMenu === "" && "md:flex-col"
         }`}
       >
         <div className="flex justify-between items-center w-full">
           <h1 className="text-4xl font-semibold">N O U R</h1>
           <FaBars
             onClick={() => {
-              showMenu == "md:hidden"
+              showMenu === "md:hidden"
                 ? setShowMenu("")
                 : setShowMenu("md:hidden");
             }}
@@ -42,7 +42,7 @@ function Header() {
             return (
               <li
                 className={`list-none mx-5 p-1 ${
-                  item.key == pathNme && "bg-white text-black rounded-md"
+                  item.key === pathNme && "bg-white text-black rounded-md"
                 }`}
               >
                 <Link to={`${item.key}`}>{item.title}</Link>
@@ -58,7 +58,7 @@ function Header() {
             return (
               <li
                 className={`list-none my-5 p-1 ${
-                  item.key == pathNme && "bg-white text-black rounded-md"
+                  item.key === pathNme && "bg-white text-black rounded-md"
                 }`}
               >
                 <Link to={`${item.key}`}>{item.title}</Link>
