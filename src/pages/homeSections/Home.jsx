@@ -1,16 +1,16 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import IntroSection from "./IntroSection";
-import Technologies from './TechnologiesSection'
+import Intro from "./IntroSection";
+import Technologies from "./TechnologiesSection";
+import ReactBuff from "./ReactBuffSection";
 
 function Home() {
   return (
     <Layout>
       <div>
-        
-        <IntroSection/>
-        <Technologies/>
-        
+        <Intro />
+        <Technologies />
+        <ReactBuff />
       </div>
     </Layout>
   );
