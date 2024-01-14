@@ -10,12 +10,12 @@ function Header() {
       key: "/",
     },
     {
-      title: "Contact",
-      key: "/contact",
-    },
-    {
       title: "Projects",
       key: "/projects",
+    },
+    {
+      title: "Contact",
+      key: "/contact",
     },
   ];
   const pathNme = window.location.pathname;

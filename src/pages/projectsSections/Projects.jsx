@@ -1,12 +1,11 @@
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../../components/Layout";
+import Intro from "./IntroSection";
 
 function Projects() {
   return (
     <Layout>
-      <div>
-        <h1>Projects page</h1>
-      </div>
+      <Intro />
     </Layout>
   );
 }
