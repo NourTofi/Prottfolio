@@ -8,7 +8,7 @@ const MyDevStackSection = () => {
       </div>
       {/* -mt-20: is the think that make the card at the top of the last div  */}
       <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
-        <div className="h-96">
+        <div className="h-96" data-aos='zoom-out'>
           <lottie-player
             src="https://lottie.host/a9fd2468-3be5-4b70-971e-3313c292c576/nuL7a66B8n.json"
             background="transparent"

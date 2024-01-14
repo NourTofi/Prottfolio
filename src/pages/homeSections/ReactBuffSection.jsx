@@ -10,7 +10,7 @@ function ReactBuffSection() {
       </div>
       {/* -mt-20: is the think that make the card at the top of the last div  */}
       <div className="md:mx-5 mx-32 shadow-2xl bg-gray-50 -mt-20 rounded-lg hover:bg-gray-700 hover:text-white">
-        <div className="h-96">
+        <div className="h-96" data-aos='zoom-in'>
           <lottie-player
             src="https://lottie.host/8caa30d8-a257-40c0-98a3-c358752b854e/7DQdVOdfaS.json"
             background="transparent"

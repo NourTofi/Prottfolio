@@ -13,8 +13,8 @@ const IntroSection = () => {
             autoplay
           ></lottie-player>
         </div>
-        <div className="font-bold text-white md:mx-4 ">
-          <h1 className="text-7xl md:text-4xl border-l-4 border-white pl-2 pb-2 mr-48 md:border-l-0 md:mr-0 md:pl-0 md:pd-0">
+        <div className="font-bold text-white md:mx-4 "data-aos='slide-right'>
+          <h1 className="text-7xl md:text-4xl border-l-4 border-white pl-2 pb-2 mr-48 md:border-l-0 md:mr-0 md:pl-0 md:pd-0" >
             Hii , I am <b className="text-yellow-500 ">Nour</b>
           </h1>
           <h1 className="text-4xl md:text-xl border-l-4 border-white border-t-4 mr-80 pl-2 pt-2 md:mr-0 md:border-t-0 md:pl-0 md:pt-0 md:border-l-0">

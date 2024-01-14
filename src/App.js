@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/homeSections/Home";
 import Projects from "./pages/projectsSections/Projects";
 import Contact from "./pages/contactSections/Contact";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
   return (
     <div>

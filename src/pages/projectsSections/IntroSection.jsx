@@ -16,11 +16,11 @@ const IntroSection = () => {
         <p className="text-xl text-center font-semibold">
           With ideas projects come from and I can make this ideas happen
         </p>
-        <h1 className="text-4xl text-center font-bold mt-5">Because</h1>
+        <h1 className="text-4xl text-center font-bold mt-5" data-aos="fade-up-right">Because</h1>
       </div>
       <div className="font-bold text-8xl text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-5 md:text-2xl">
-        <h1>I DON'T STOP UNTIL...</h1>
-        <h1>PROJECT DONE</h1>
+        <h1 data-aos='slide-right'>I DON'T STOP UNTIL...</h1>
+        <h1 data-aos='slide-left'>PROJECT DONE</h1>
       </div>
     </div>
   );
