@@ -27,7 +27,11 @@ function Header() {
         }`}
       >
         <div className="flex justify-between items-center w-full">
-          <h1 className="text-4xl font-semibold">N O U R</h1>
+          <Link to="/">
+            <h1 className="text-4xl font-semibold hover:text-yellow-500 cursor-pointer">
+              N O U R
+            </h1>
+          </Link>
           <FaBars
             onClick={() => {
               showMenu === "md:hidden"
