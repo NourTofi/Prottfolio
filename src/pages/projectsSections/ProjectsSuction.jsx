@@ -9,7 +9,7 @@ const ProjectsSuction = () => {
           return (
             <div className="">
               <div className="relative p-10 border-2 text-center rounded-tr-3xl rounded-bl-3xl border-gray-400">
-                <img src={project.image} className="w-full h-52 text-center" />
+                <img src={project.image} alt="project image" className="w-full h-52 text-center" />
                 <div className="absolute flex inset-0 items-center justify-center bg-black rounded-tr-3xl rounded-bl-3xl flex-col opacity-0 hover:opacity-80">
                   <h1 className="text-4xl font-semibold text-white">
                     {project.title}
