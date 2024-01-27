@@ -2,14 +2,10 @@ import React from "react";
 import Typescript from "../../asset/typescript.png"
 import Twailind from "../../asset/tailwind-css.1024x615.png";
 import {
-  FaBootstrap,
   FaCss3,
   FaHtml5,
-  FaJava,
   FaJsSquare,
-  FaNodeJs,
   FaReact,
-  FaWind,
 } from "react-icons/fa";
 
 const Technologies = () => {
@@ -31,13 +27,13 @@ const Technologies = () => {
           src={Typescript}
           alt="TypeScript Logo"
           style={{ width: "180px", height: "180px" }}
-          className="ml-40 w-full text-center mt-20 animate-bounce"
+          className="ml-40 md:ml-28 w-full text-center mt-20 animate-bounce"
         />
         <img
           src={Twailind}
           alt="TypeScript Logo"
           style={{ width: "180px", height: "180px" }}
-          className="ml-48  md:ml-40 w-full text-center mt-20"
+          className="ml-48  md:ml-32 w-full text-center mt-20"
         />
         <FaJsSquare
           size={180}

@@ -24,7 +24,7 @@ const IntroSection = () => {
           Because
         </h1>
       </div>
-      <div className="font-bold text-7xl text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-4 md:text-2xl">
+      <div className="font-bold text-7xl text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-4 md:text-lg">
         <h1 data-aos="slide-right">I PERSEVERE UNTIL...</h1>
         <h1 data-aos="slide-left">THE GOAL IS ACHIEVED</h1>
       </div>

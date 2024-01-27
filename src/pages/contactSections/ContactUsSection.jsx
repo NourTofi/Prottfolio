@@ -26,7 +26,7 @@ const ContactUs = () => {
       );
   };
   return (
-    <div className="w-screen flex justify-center">
+    <div className="w-screen flex justify-center mb-20">
       <div className="md:w-full w-1/2 p-10 shadow-2xl bg-gray-50">
         <h1 className="text-2xl font-semibold">Contact me to know more</h1>
         <form
