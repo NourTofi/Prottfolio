@@ -3,7 +3,7 @@ import projectsData from "./ProjectsData";
 
 const ProjectsSuction = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 w-screen">
       <div className="grid grid-cols-3 mt-20 md:grid-cols-1 items-center justify-center gap-10 mx-20 md:mx-5">
         {projectsData.map((project) => {
           return (

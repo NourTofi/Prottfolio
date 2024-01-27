@@ -13,14 +13,20 @@ const IntroSection = () => {
             autoplay
           />
         </div>
-        <p className="text-xl text-center font-semibold">
-          With ideas projects come from and I can make this ideas happen
+        <p className="text-xl text-center font-semibold md:text-lg">
+          Ideas are the seeds, execution is the soil. Together, they cultivate
+          the projects that I bring to life
         </p>
-        <h1 className="text-4xl text-center font-bold mt-5" data-aos="fade-up-right">Because</h1>
+        <h1
+          className="text-4xl text-center font-bold mt-5"
+          data-aos="fade-up-right"
+        >
+          Because
+        </h1>
       </div>
-      <div className="font-bold text-8xl text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-5 md:text-2xl">
-        <h1 data-aos='slide-right'>I DON'T STOP UNTIL...</h1>
-        <h1 data-aos='slide-left'>PROJECT DONE</h1>
+      <div className="font-bold text-7xl text-center bg-red-500 mx-20 p-20 text-white rounded-tl-full rounded-br-full md:mx-4 md:text-2xl">
+        <h1 data-aos="slide-right">I PERSEVERE UNTIL...</h1>
+        <h1 data-aos="slide-left">THE GOAL IS ACHIEVED</h1>
       </div>
     </div>
   );
